@@ -91,7 +91,7 @@ const Start = async () => {
 	const districtQuestion = [{
 		type:'list',
 		name: 'district',
-		message:'Select your state',
+		message:'Select your city',
 		choices:districtsOptions
 	}]
 	const selectedDistrict = await inquirer.prompt(districtQuestion);
